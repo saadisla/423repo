@@ -1,0 +1,23 @@
+.forecast{
+    min-height:100%;
+    width:100%;
+    background-color: #B2DDFF;
+    text-decoration: none;
+    font-family: sans-serif;
+    color:#1B3A6C;
+    .forecastholder{
+        padding:100px;
+        padding-top:150px;
+    }
+    .content{
+        padding-top:10px;
+        padding:5px;
+        margin-top:5px;
+        background-color:#224B8B;
+
+        p{
+            background-color:#224B8B;
+            color: #B2DDFF;
+        }
+    }
+}

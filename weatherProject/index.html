@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#search">Search</a>
+        <a href="#theforecast">Get Forecast</a>
+        <a href="#astroworld">Astrology</a>
+        
+        <div>
+        <button id="login">Log In</button>
+        <button id="signup">Sign Up</button>
+        </div>     
+    </nav>
+
+    <div class="forecast">
+        <div id="search"></div>
+        <div class="forecastholder">
+            <h1>Get Forecast</h1>
+            <p>Put your zip code to get accurate weather.</p>
+            <div class="inputBox">
+                <input id ="zipcode" type="text">
+                <input type="number" id="daycount" name="daycount" min="1" max="5">
+                <button id="getWeather">Get Weather</button>
+                
+            </div>
+            <div id="theforecast">
+                <div class="content"></div>
+            </div>
+            
+            <div id="astroworld">
+                <div class="astrology"></div>
+            </div>  
+        </div>
+    </div>
+
+    
+
+    
+
+    <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="app/app.js"></script>
+</body>
+</html>
