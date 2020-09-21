@@ -1,5 +1,5 @@
 var apiKey = "fba8993979a04a47adb193110201409";
-var baseURL = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=`;
+var baseURL = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=`;
 //var forecastBaseURL = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=`;
 //var forecastEndURL = 
 //var storedZipOrCity;
