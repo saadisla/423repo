@@ -1,11 +1,4 @@
-// if ("students" in localStorage) {
-//   var students;
-//   console.log(students);
-// } else {
-//   var students = {
-//     Students: [],
-//   };
-// }
+
 
 var students = {
   Students: [],
