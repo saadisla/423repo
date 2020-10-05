@@ -59,7 +59,7 @@ function clicklisten() {
   }
 }
 
-function clickShow() {
+function displayInfo() {
   document.getElementById("content").innerHTML = "";
   var parsedInfo = JSON.parse(localStorage.getItem("students"));
   console.log(parsedInfo);
