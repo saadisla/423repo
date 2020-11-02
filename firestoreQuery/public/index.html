@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Firestore Query</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!--
+    <label for="classes">
+      Choose a class.
+    </label>
+    <select name="classes" id="classes">
+      <option value=""></option>
+      <option value="115">N115</option>
+      <option value="215">N215</option>
+      <option value="315">N315</option>
+      <option value="423">N423</option>
+
+    </select>
+  -->
+    <h1 class="mainheading">Rainbow Records - Album Browser</h1>
+    <div class="filterwrapper">
+    <label for="genre">
+      Filter by Genre
+    </label>
+    <select name="genre" id="genre" >
+      <option value="None"></option>
+      <option value="Hip-Hop">Hip-Hop</option>
+      <option value="Rock">Rock</option>
+      <option value="Electronic">Electronic</option>
+      
+
+    </select>
+  </div>
+    <div class="title"></div>
+
+
+    <div class="centerWrapper">
+      <div class="wrap">
+        <div class="content"></div>
+      </div>
+    </div>
+
+   <!-- update the version number as needed -->
+   <script defer src="/__/firebase/8.0.0/firebase-app.js"></script>
+   <!-- include only the Firebase features as you need -->
+   <script defer src="/__/firebase/8.0.0/firebase-auth.js"></script>
+   <script defer src="/__/firebase/8.0.0/firebase-firestore.js"></script>
+
+   <!-- initialize the SDK after all desired features are loaded -->
+   <script defer src="/__/firebase/init.js"></script>
+   <!--Scripts we create-->
+   <script src="lib/jquery-3.5.1.min.js"></script>
+   <script type="module" src="model/model.js"></script>
+   <script type="module" src="app/app.js"></script>
+
+
+
+  </body>
+</html>
