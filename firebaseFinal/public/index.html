@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Get Fit Pal</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!--
+    <label for="classes">
+      Choose a class.
+    </label>
+    <select name="classes" id="classes">
+      <option value=""></option>
+      <option value="115">N115</option>
+      <option value="215">N215</option>
+      <option value="315">N315</option>
+      <option value="423">N423</option>
+
+    </select>
+  -->
+    <div class="mainheading">
+      <h1>Get Fit Pal</h1>
+      </div>
+
+    <div id="signup">
+      <input id="username" type="text" placeholder="username">
+      <input id="password" type="text" placeholder="password">
+      <button id="login">Log In</button>
+      <button id="registration">Sign Up</button>
+    </div>
+    <div class="user"></div>
+    <div class="header"></div>
+    
+    <div class="content"></div>
+
+    
+
+   <!-- update the version number as needed -->
+   <script defer src="/__/firebase/8.0.0/firebase-app.js"></script>
+   <!-- include only the Firebase features as you need -->
+   <script defer src="/__/firebase/8.0.0/firebase-auth.js"></script>
+   <script defer src="/__/firebase/8.0.0/firebase-firestore.js"></script>
+
+   <!-- initialize the SDK after all desired features are loaded -->
+   <script defer src="/__/firebase/init.js"></script>
+   
+   <!--Scripts we create-->
+   <script src="lib/jquery-3.5.1.min.js"></script>
+   <script type="module" src="model/model.js"></script>
+   <script type="module" src="app/app.js"></script>
+
+
+
+  </body>
+</html>
