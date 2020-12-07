@@ -40,7 +40,7 @@ CRUD FEATURES:
 Clicking the sign up button lets you create an account, currently rudimentary and only asks for username and password. Adds it to the database then updates the document with docref id for dynamic access to subcollections. 
 
 
-==DAY WORKOUT== 
+==DAY WORKOUT==
 
 
 Once you log in with your username, you will be greeted with a list of days and a welcome message. Clicking on a day will open "XXXXXXX Workouts" with the options to add, update, and delete. If there are no workouts already/this is your first time after signing up, you will want to click on add workout first.
@@ -62,3 +62,5 @@ Clicking the update workout button pulls a dropdown of each workout you have in 
 
 
 Click on the "Remove Workout" button, which lists a dropdown with each workout you have. Click the workout you wish to delete and it will be deleted. (Delete)
+
+=================HAVE A GOOD DAY===================
