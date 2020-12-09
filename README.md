@@ -8,7 +8,7 @@ Local Storage: https://in-info-web4.informatics.iupui.edu/~saadisla/localstorage
 Album Firebase [UNAVAILABLE RIGHT NOW]: https://n423-data-saad.web.app/
 
 
-==========FINAL PROJECT============
+==========FINAL PROJECTS============
 
 
 FIREBASE LINK: https://n423-data-saad.web.app/
