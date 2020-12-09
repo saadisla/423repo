@@ -63,4 +63,38 @@ Clicking the update workout button pulls a dropdown of each workout you have in 
 
 Click on the "Remove Workout" button, which lists a dropdown with each workout you have. Click the workout you wish to delete and it will be deleted. (Delete)
 
+==========N322 FINAL PROJECT============
+
+
+WEB4 LINK: https://in-info-web4.informatics.iupui.edu/~saadisla/artBookUnlimited/www/home
+++++++++++++++++++++++++++++++++++++
+
+
+INFORMATION ABOUT THE APP:
+
+
+This is an open access partial CRUD application which currently features the abilities to add and read information from a firebase collection. The purpose of this application is for anyone in the world to upload art for anyone else (in possession of this link) to view. All of this art is then displayed on an ionic framework application. Primary languages used include angular, ionic html elements, and scss. The application was built into a PWA and uploaded to web4 for viewing. 
+
+
+++++++++++++++++++++++++++++++++++++
+
+
+CRUD INFORMATION: 
+
+
+Currently, the app features Create and Read. I intend to revisit this over break and improve upon it by adding the full CRUD suite, as well as admin authentication for increased access. Additionally, some additional error handling features will be added.
+
+
+========CREATE + READ========
+
+
+Visitors can click on the “Add Art” button and fill out the required fields to upload an image of their choice to Firestore. In the future, we will improve upon the app by allowing image uploads instead only URL image uploads. This information is sent to the Cloud Firestore and added as a new document. The page then refreshes, including the newly added item. They are displayed using ionic cards and spaced out using SCSS and flex.
+
+
+========ABOUT========
+
+
+Clicking the about button uses Angular’s in built routing system to take you to an about page, which more information and guidelines about the website. Clicking back to home will return you to the home page.
+
+
 =================HAVE A GOOD DAY===================

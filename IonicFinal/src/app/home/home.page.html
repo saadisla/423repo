@@ -1,0 +1,75 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    
+    <ion-title>
+      <ion-icon name="rocket-outline"></ion-icon>
+      <ion-label>Artbook Unlimited</ion-label>
+      
+    </ion-title>
+    
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content class=".css-selector" [fullscreen]="true">
+  <!-- <ion-button (click)="getData()" expand=full>Get Data</ion-button> -->
+  <!-- <ion-button (click)="login()" expand=full>Login</ion-button> -->
+  <!-- <ion-button (click)="loadEverything()" expand=full>Logout</ion-button>  -->
+  <!-- <ion-item>
+    
+    <ion-label>
+      <h2>{{currentDate | date:'yyyy-MM-dd'}}</h2>
+    </ion-label>
+  </ion-item> -->
+  <!-- *ngFor="let item of items" -->
+  
+
+  <ion-item >
+    
+  <form  (submit)="getData($event)">
+    <ion-list lines="none" >
+      <ion-button ion-button [routerLink]="['/about-page']">About</ion-button>
+      <ion-button ion-button (click)="hide()">Add Art</ion-button>
+    </ion-list>
+  <div class="fadeIn" *ngIf="hideMe">
+  <ion-item>
+    <ion-label>Name Your Art</ion-label>
+    <ion-input type="text" required  name="itemname" [(ngModel)]="itemname"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Author</ion-label>
+    <ion-input type="text" required  name="author" [(ngModel)]="author"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Image URL</ion-label>
+    <ion-input type="url" required  name="image" [(ngModel)]="image"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Description</ion-label>
+    <ion-input type="text" required  name="description" [(ngModel)]="description"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Date Posted</ion-label>
+    <ion-input type="date" required  name="date" [(ngModel)]="date" ></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-button type="submit">Post!</ion-button>
+  </ion-item>
+  </div>
+  </form>
+  </ion-item>
+
+  <div class="wrapper">
+  <ion-card *ngFor="let data of chartData; let i=index">
+    <ion-card-header>
+      <ion-thumbnail>
+        <img src="{{data.image}}">
+      </ion-thumbnail>
+      <ion-card-subtitle>{{data.author}}</ion-card-subtitle>
+      <ion-card-subtitle>{{data.date}}</ion-card-subtitle>
+      <ion-card-title>{{data.itemname}}</ion-card-title>
+      <ion-card-subtitle>{{data.description}}</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  </div>
+</ion-content>

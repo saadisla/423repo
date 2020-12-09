@@ -1,0 +1,139 @@
+
+
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+  
+  .wrapper{
+    
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    flex-wrap: wrap;
+  }
+  
+  ion-content{
+    background-color: transparent;
+    
+  }
+  
+  ion-toolbar{
+    padding:10px;
+  }
+  
+  ion-card{
+    width:100%;
+    height:100%;
+    background-color:#3880ff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:white;
+    border-radius: 30px 10px;
+    ion-card-subtitle{
+      color:white;
+    }
+  
+    ion-card-title{
+      color:#d7d8da;
+    }
+  }
+  
+  
+  ion-title{
+    
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    padding:10px;
+    ion-icon {
+      font-size: 30px;
+      margin-top:5px; //Preferred size here
+    }
+    ion-label{font-size:40px;}
+  }
+  
+  ion-thumbnail{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    
+  
+    img{
+      border-radius: 30px 10px;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+     
+    }
+  
+  }
+  
+  .css-selector {
+    background: linear-gradient(255deg, #1dd0a2, #0bc192, #34c3c5, #3497c5, #4a83d2, #7582ee, #5d5adf, #212899);
+    background-size: 1600% 1600%;
+  
+    -webkit-animation: AnimationName 42s ease infinite;
+    -moz-animation: AnimationName 42s ease infinite;
+    animation: AnimationName 42s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+  }
+  @-moz-keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+  }
+  @keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+  }
+  
+  ion-grid{
+      
+      display:flex;
+      justify-content: space-evenly;
+      ion-row{
+          width:50%;
+          height:50%;
+      }
+    
+  }
+
+  ion-card-title{
+      padding:30px;
+  }
+
+  ion-card-subtitle{
+    padding:30px;
+}
+  

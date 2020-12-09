@@ -1,0 +1,167 @@
+
+
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.wrapper{
+  width:100%;
+  min-height:100%;
+  //background-color:red;
+  display: flex;
+  justify-content: space-evenly;
+  width:100%;
+  height:100%;
+  overflow:auto;
+  flex-wrap:wrap;
+}
+
+ion-content{
+  background-color: transparent;
+  // overwrite inline styles
+  --offset-bottom: auto!important;
+  --overflow: hidden;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  
+}
+
+ion-toolbar{
+  padding:10px;
+}
+
+ion-card{
+  width:40%;
+  min-height:85%;
+  background-color:#3880ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color:white;
+
+  ion-card-subtitle{
+    color:white;
+  }
+
+  ion-card-title{
+    color:#d7d8da;
+  }
+}
+
+
+ion-title{
+  
+  text-align: center;
+  justify-content: center;
+  align-items:center;
+  padding:10px;
+  ion-icon {
+    font-size: 30px;
+    margin-top:5px; //Preferred size here
+  }
+  ion-label{font-size:40px;}
+}
+
+ion-thumbnail{
+  width:100%;
+  height:30%;
+  object-fit: cover;
+  margin-bottom:10px;
+
+  img{
+    border-radius: 30px 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom:10px;
+    width:100%;
+    height:30%;
+    object-fit: cover;
+    //margin-bottom:10px;
+   
+  }
+
+}
+
+ion-button{
+  width:100px;
+}
+
+ion-label{
+  width:150px;
+  margin-right:10px;
+}
+
+.css-selector {
+  background: linear-gradient(255deg, #1dd0a2, #0bc192, #34c3c5, #3497c5, #4a83d2, #7582ee, #5d5adf, #212899);
+  background-size: 1600% 1600%;
+
+  -webkit-animation: AnimationName 42s ease infinite;
+  -moz-animation: AnimationName 42s ease infinite;
+  animation: AnimationName 42s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:20% 0%}
+  50%{background-position:81% 100%}
+  100%{background-position:20% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:20% 0%}
+  50%{background-position:81% 100%}
+  100%{background-position:20% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:20% 0%}
+  50%{background-position:81% 100%}
+  100%{background-position:20% 0%}
+}
+
+@media only screen and (max-height: 1400px) {
+  ion-card {
+    min-height:5%;
+  }
+}
+
+@media only screen and (device-width: 1367px) {
+  /* For general iPad layouts */
+  ion-card {
+    min-height:5%;
+  }
+}
+
+div.fadeIn{
+  padding:5px;
+    
+    margin:5px 0;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
+}
+
